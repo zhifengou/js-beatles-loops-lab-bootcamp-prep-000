@@ -11,6 +11,7 @@ function johnLennonFacts(arr){
   var i=0
   while(i<arr.length){
     str.push(arr[i]+"!!!")
+    i++
   }
   return str
 }
